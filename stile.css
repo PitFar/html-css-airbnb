@@ -1,0 +1,48 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+#Rome {
+  background-image: url('roma.jpg');
+  width:200px;
+  height:200px;
+  position: relative;
+}
+
+#Rome > span {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#Tokyo{
+  background-image: url('Tokyo.jpg');
+  width:200px;
+  height:200px;
+  position: relative;
+}
+
+#Tokyo > span {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#Copenaghen{
+    background-image: url('Copenaghen.jpg');
+    width:200px;
+    height:200px;
+    position: relative;
+  }
+
+  #Copenaghen > span {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
